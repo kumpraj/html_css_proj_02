@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+body {
+
+  background: linear-gradient(rgba(0, 0, 0, 0.701), rgba(10, 19, 86, 0.888)), url('./assets/pexels-maxyne-barcel-104022821.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav{  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4%;
+}
+
+nav div ul li{
+  font-size: 1.2em;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #dd9d27;
+}
+
+.navbar img{
+  /* border: 2px solid red; */
+  width: 80%;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.hero .hero-heading{
+  text-align: center;
+  color: #dd9d27;
+  font-weight: 900;
+  width:55%;
+  font-size: 300%;  
+  line-height: 1;
+}
+
+
+
+.hero .button-large, .button-small{
+  background-color: rgb(255, 43, 43);
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 1% 2%;  
+  margin-top: 3%;
+}
+
+.button-small{
+  padding: 5% 20%;
+  margin-right: 90px;
+}
+
+.hero .bottom div img {
+  position: fixed;
+  left: 85%;
+  top: 80%;
+  width: 8%;
+}
+
+/*  effects extra */
+
+.button-small:hover, .button-large:hover{
+  background-color: rgba(237, 73, 9, 0.906);
+  transition:all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+img:hover{
+  opacity: 0.5;
+  transition:all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+
+li:hover{
+  border-bottom: 2px solid saddlebrown;
+  box-shadow: #dd9d27 2px 2px 2px 2px;
+  cursor: pointer;
+  transition:all .500s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+::selection{
+  background-color: #dd9d27;
+  color: wheat;
+  
+}
