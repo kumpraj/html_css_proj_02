@@ -11,18 +11,18 @@
 
 body {
 
-  background: linear-gradient(rgba(0, 0, 0, 0.701), rgba(10, 19, 86, 0.888)), url('./assets/pexels-maxyne-barcel-104022821.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.701), rgba(10, 19, 86, 0.888)), url('./assets/pexels-maxyne-barcel-104022821.png') no-repeat top center/cover;
   height: 100vh;
   overflow: hidden;
 }
+
+
 
 nav{  
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 4%;
+  margin: 30px 50px;
 }
 
 nav div ul li{
@@ -34,7 +34,6 @@ nav div ul li{
 }
 
 .navbar img{
-  /* border: 2px solid red; */
   width: 80%;
 }
 
@@ -43,20 +42,19 @@ nav div ul li{
 /* ------------------------------ */
 
 .hero {
-  /* border: 5px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 8%;
+  margin-top: 100px;
 }
 
 .hero .hero-heading{
   text-align: center;
   color: #dd9d27;
   font-weight: 900;
-  width:55%;
-  font-size: 300%;  
+  width:65%;
+  font-size: 100px;  
   line-height: 1;
 }
 
@@ -87,9 +85,10 @@ nav div ul li{
 
 .button-small:hover, .button-large:hover{
   background-color: rgba(237, 73, 9, 0.906);
-  transition:all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition:all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   cursor: pointer;
   border-radius: 20px;
+  opacity: 0.8;
 }
 
 img:hover{
